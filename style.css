@@ -1,0 +1,73 @@
+html{
+  font-family: "Open Sans", sans-serif;
+}
+
+Body{
+  padding: 100px 100px 100px 100px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 40px;
+}
+
+h1 a{
+  text-decoration: none;
+  color: red;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+nav > a{
+  color: gray;
+}
+
+header h2 {
+  font-size: 30px;
+  font-weight: normal;
+}
+
+article{
+  border-bottom: 1px solid gray;
+}
+
+article > h2 > a{
+  color: black;
+  text-decoration: none;
+}
+
+h3{
+  color: gray;
+  font-weight: normal;
+  font-size: 40px;
+}
+
+h4{
+  color: red;
+  text-align: right;
+}
+
+h4 a{
+  color: red;
+  text-decoration: none;
+}
+
+p{
+  text-align: justify;
+}
+
+p::first-letter {
+    font-size: 65px;
+    font-weight: bold;
+    color: gray;
+    float: left;
+}
+
+img{
+  max-width: 100%;
+}
